@@ -1,4 +1,35 @@
+@font-face {
+  font-family: "Inconsolata";
+  font-weight: normal;
+  src: url("/inconsolata-regular.woff");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-weight: bold;
+  src: url("/inconsolata-bold.woff");
+}
+
+body {
+  color: #212121;
+  font-family: "Inconsolata", monospace;
+  font-weight: normal;
+}
+
 section, header, footer {
   margin: 0 auto;
   width: 600px;
+}
+
+a, a:visited {
+  color: #fc5457;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+label {
+  color: #757575;
+  font-weight: bold;
 }
