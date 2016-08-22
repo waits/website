@@ -8,13 +8,27 @@
 	<body>
   	{{ partial "header.html" . }}
 
-  	<section id="main">
-      <p>Hi, I'm Dylan. I'm a software engineer specializing in backend web
+  	<main>
+      <section>
+        Hi, I'm Dylan. I'm a software engineer specializing in backend web
         development and system administration. I've mainly worked with Ruby,
         Python, JavaScript, Swift, and Go, but I love learning and am eager to
         try everything.
-        </p>
-  	</section>
+      </section>
+
+      <section>
+        <label>Projects</label>
+        <div><a href="https://github.com/waits/dropbox-sdk-ruby">dropbox-sdk-ruby</a></div>
+        <div><a href="https://go.waits.io">gogo</a></div>
+        <div><a href="https://github.com/waits/unwrapped">unwrapped</a></div>
+      </section>
+
+      <section>
+        <label>Contact</label>
+        <div><a href="mailto:dylan@waits.io">dylan@waits.io</a></div>
+        <div><a href="https://github.com/waits">github.com/waits</a></div>
+      </section>
+  	</main>
 
   	{{ partial "footer.html" . }}
 	</body>
